@@ -1,0 +1,252 @@
+body{
+    background: url('bgg.jpg');
+    background-size: cover;
+    background-color: rgb(255, 255, 255,0.75);
+    background-blend-mode: lighten; 
+    font-size: 16px;
+}
+
+#form-book {
+    display: flex;
+    max-width: 100%;
+    background: #afd7afe2;
+    padding: 20px 20px 25px;
+    margin: 0;
+    border: 1px solid #75ff68;
+}
+
+
+.image {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    align-items: center; 
+}
+
+.image img {
+    max-width: 150px; 
+    height: auto;
+    margin-right: 20px;  
+    padding-left: 250px;
+}
+
+
+.form-heading1{
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.form-heading2{
+    font-size: 30px;
+    color: #089dfa;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #564ede;
+    width: 300px;
+}
+
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#doctor-info {
+    flex: 1;
+    margin-right: 20px;
+    overflow: auto;
+}
+.doctor-info {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    flex: 1;
+    margin-right: 20px;
+    overflow: auto;
+    width: 700px;
+}
+.doctor-select select {    
+    width: 700px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    appearance: none; 
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+}
+
+#line {
+    width: 2px;
+    background-color: #a3907d;
+    margin: 0 20px;
+    
+}
+
+#appointment-info {
+    flex: 1;
+    width: 500px;
+}
+
+.time-slot {
+    background-color: #78e978e2;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.calendar-heading {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.calendar-heading i {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.time-slot:hover {
+    background-color: #f7ff1d;
+}
+
+.time-slot.selected {
+    background-color: #f7ff1d;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+p {
+    font-size: 10px; /* Kích thước chữ */
+    font-weight: normal; /* Độ đậm của chữ */
+    color: #6b6464; /* Màu chữ */
+    font-family: Arial, sans-serif;
+}
+
+p1 {
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm của chữ */
+    color: #6b6464; /* Màu chữ */
+    /* font-family: Arial, sans-serif; */
+}
+
+h4 {
+    margin-bottom: 10px; /* Khoảng cách giữa tiêu đề và dòng tiếp theo */
+    font-weight: normal; /* Không tô đậm */
+    text-indent: 20px; /* Không thụt đầu dòng */
+}
+
+
+.address{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.address i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.form-group1{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.form-group1 i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.form-date input[type="date"] {
+    width: 440px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.form-date input[type="date"]::before {
+    color: #aaa;
+    margin-right: 5px;
+}
+
+.form-date input[type="date"]::-webkit-inner-spin-button,
+.form-date input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+.form-date input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #333;
+}
+
+.form-date input[type="date"]::placeholder {
+    color: #aaa;
+}
+
+.form-date input[type="date"]:focus {
+    border-color: #333;
+    outline: none;
+}
+
+.doctor-profile ul {
+    margin-top: 10px;
+    padding-left: 300px; /* Thụt vào 30px từ bên trái */
+    width: 700px;
+}
+
+.doctor-profile ul li {
+    margin-bottom: 5px;
+    padding-left: 25px; /* Thụt vào 20px từ bên trái */
+}
+
+
+.form-submit {
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #000000;
+    width: 440px;
+    padding: 10px 10px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #78e978e2;
+}
+
+.form-submit:hover {
+    border: 1px solid #f75605;
+    background-color: #aaa;
+}
